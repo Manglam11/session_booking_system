@@ -1,8 +1,12 @@
 import sqlite3
 from flask import Flask, render_template, request
+import os
+from dotenv import load_dotenv
 import smtplib
 from email.mime.text import MIMEText
 
+
+load_dotenv()
 app = Flask(__name__)
 
 @app.route("/")
@@ -86,8 +90,8 @@ def get_all_bookings():
 
 def send_email(to_email, date, time):
 
-    sender_email = "manglamdubey11@gmail.com"
-    sender_password = "rakh cnda eyul uube"
+    sender_email = os.getenv("EMAIL_USER")
+    sender_password = os.getenv("EMAIL_PASS")
 
     subject = "Session Booking Confirmed"
     body = f"Your session is booked on {date} at {time}"
