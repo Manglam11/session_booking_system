@@ -1,198 +1,32 @@
-2026-02-15 12:17:44,978 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-02-15 13:38:56,859 - INFO - Scheduler started
+2026-02-15 13:38:56,891 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-02-15 12:17:44,978 - INFO - [33mPress CTRL+C to quit[0m
-2026-02-15 12:17:44,979 - INFO -  * Restarting with stat
-2026-02-15 12:17:45,364 - WARNING -  * Debugger is active!
-2026-02-15 12:17:45,367 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 12:17:57,009 - INFO - Home page opened
-2026-02-15 12:17:57,014 - INFO - 127.0.0.1 - - [15/Feb/2026 12:17:57] "GET / HTTP/1.1" 200 -
-2026-02-15 12:18:19,720 - INFO - Booking created for manglamdubey11@gmail.com on 2026-02-15 12:18
-2026-02-15 12:18:25,387 - INFO - Confirmation email sent to manglamdubey11@gmail.com
-2026-02-15 12:18:25,390 - INFO - 127.0.0.1 - - [15/Feb/2026 12:18:25] "POST /book HTTP/1.1" 200 -
-2026-02-15 12:18:40,136 - INFO - Home page opened
-2026-02-15 12:18:40,136 - INFO - 127.0.0.1 - - [15/Feb/2026 12:18:40] "GET / HTTP/1.1" 200 -
-2026-02-15 12:18:42,372 - INFO - Admin panel viewed
-2026-02-15 12:18:42,378 - INFO - 127.0.0.1 - - [15/Feb/2026 12:18:42] "GET /admin HTTP/1.1" 200 -
-2026-02-15 12:27:23,710 - INFO - Home page opened
-2026-02-15 12:27:23,742 - INFO - 127.0.0.1 - - [15/Feb/2026 12:27:23] "GET / HTTP/1.1" 200 -
-2026-02-15 12:27:23,844 - INFO - 127.0.0.1 - - [15/Feb/2026 12:27:23] "GET /static/style.css HTTP/1.1" 200 -
-2026-02-15 12:29:44,071 - INFO - Home page opened
-2026-02-15 12:29:44,072 - INFO - 127.0.0.1 - - [15/Feb/2026 12:29:44] "GET / HTTP/1.1" 200 -
-2026-02-15 12:29:44,111 - INFO - 127.0.0.1 - - [15/Feb/2026 12:29:44] "GET /static/style.css HTTP/1.1" 200 -
-2026-02-15 12:29:52,852 - INFO - Home page opened
-2026-02-15 12:29:52,853 - INFO - 127.0.0.1 - - [15/Feb/2026 12:29:52] "GET / HTTP/1.1" 200 -
-2026-02-15 12:29:52,887 - INFO - 127.0.0.1 - - [15/Feb/2026 12:29:52] "GET /static/style.css HTTP/1.1" 200 -
-2026-02-15 12:30:17,729 - INFO - Booking created for manglamdubey11@gmail.com on 2026-02-15 12:30
-2026-02-15 12:30:22,419 - INFO - Confirmation email sent to manglamdubey11@gmail.com
-2026-02-15 12:30:22,421 - INFO - 127.0.0.1 - - [15/Feb/2026 12:30:22] "POST /book HTTP/1.1" 200 -
-2026-02-15 12:30:27,427 - INFO - Home page opened
-2026-02-15 12:30:27,428 - INFO - 127.0.0.1 - - [15/Feb/2026 12:30:27] "GET / HTTP/1.1" 200 -
-2026-02-15 12:30:27,463 - INFO - 127.0.0.1 - - [15/Feb/2026 12:30:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-02-15 12:30:37,940 - INFO - Admin panel viewed
-2026-02-15 12:30:37,945 - INFO - 127.0.0.1 - - [15/Feb/2026 12:30:37] "GET /admin HTTP/1.1" 200 -
-2026-02-15 12:34:01,258 - INFO - Home page opened
-2026-02-15 12:34:01,261 - INFO - 127.0.0.1 - - [15/Feb/2026 12:34:01] "GET / HTTP/1.1" 200 -
-2026-02-15 12:34:01,301 - INFO - 127.0.0.1 - - [15/Feb/2026 12:34:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-02-15 12:34:08,562 - INFO - Admin panel viewed
-2026-02-15 12:34:08,564 - INFO - 127.0.0.1 - - [15/Feb/2026 12:34:08] "GET /admin HTTP/1.1" 200 -
-2026-02-15 12:34:31,042 - INFO - Admin panel viewed
-2026-02-15 12:34:31,043 - INFO - 127.0.0.1 - - [15/Feb/2026 12:34:31] "GET /admin HTTP/1.1" 200 -
-2026-02-15 12:34:33,623 - INFO - Home page opened
-2026-02-15 12:34:33,625 - INFO - 127.0.0.1 - - [15/Feb/2026 12:34:33] "GET / HTTP/1.1" 200 -
-2026-02-15 12:34:33,662 - INFO - 127.0.0.1 - - [15/Feb/2026 12:34:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-02-15 12:35:18,235 - INFO - Home page opened
-2026-02-15 12:35:18,236 - INFO - 127.0.0.1 - - [15/Feb/2026 12:35:18] "GET / HTTP/1.1" 200 -
-2026-02-15 12:35:18,276 - INFO - 127.0.0.1 - - [15/Feb/2026 12:35:18] "GET /static/style.css HTTP/1.1" 200 -
-2026-02-15 12:40:02,670 - INFO -  * Detected change in 'C:\\Users\\mangl\\OneDrive\\Desktop\\Session_Booking_System\\email_utils.py', reloading
-2026-02-15 12:40:02,718 - INFO -  * Restarting with stat
-2026-02-15 12:40:03,118 - WARNING -  * Debugger is active!
-2026-02-15 12:40:03,121 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 12:40:30,328 - INFO -  * Detected change in 'C:\\Users\\mangl\\OneDrive\\Desktop\\Session_Booking_System\\email_utils.py', reloading
-2026-02-15 12:40:30,436 - INFO -  * Restarting with stat
-2026-02-15 12:40:30,869 - WARNING -  * Debugger is active!
-2026-02-15 12:40:30,872 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 12:41:53,393 - INFO -  * Detected change in 'C:\\Users\\mangl\\OneDrive\\Desktop\\Session_Booking_System\\scheduler.py', reloading
-2026-02-15 12:41:53,451 - INFO -  * Restarting with stat
-2026-02-15 12:41:53,888 - WARNING -  * Debugger is active!
-2026-02-15 12:41:53,892 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 12:42:17,063 - INFO -  * Detected change in 'C:\\Users\\mangl\\OneDrive\\Desktop\\Session_Booking_System\\db.py', reloading
-2026-02-15 12:42:17,118 - INFO -  * Restarting with stat
-2026-02-15 12:42:18,339 - INFO - Scheduler started
-2026-02-15 12:42:18,355 - WARNING -  * Debugger is active!
-2026-02-15 12:42:18,357 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 12:44:12,114 - INFO -  * Detected change in 'C:\\Users\\mangl\\OneDrive\\Desktop\\Session_Booking_System\\app.py', reloading
-2026-02-15 12:44:12,176 - INFO -  * Restarting with stat
-2026-02-15 12:44:12,650 - INFO - Scheduler started
-2026-02-15 12:44:12,668 - WARNING -  * Debugger is active!
-2026-02-15 12:44:12,671 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 12:44:29,814 - INFO -  * Detected change in 'C:\\Users\\mangl\\OneDrive\\Desktop\\Session_Booking_System\\scheduler.py', reloading
-2026-02-15 12:44:29,873 - INFO -  * Restarting with stat
-2026-02-15 12:44:30,362 - INFO - Scheduler started
-2026-02-15 12:44:30,379 - WARNING -  * Debugger is active!
-2026-02-15 12:44:30,382 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 12:44:59,180 - INFO - Scheduler started
-2026-02-15 12:44:59,207 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-02-15 13:38:56,891 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 13:38:56,892 - INFO -  * Restarting with stat
+2026-02-15 13:38:57,304 - INFO - Scheduler started
+2026-02-15 13:38:57,319 - WARNING -  * Debugger is active!
+2026-02-15 13:38:57,322 - INFO -  * Debugger PIN: 101-848-060
+2026-02-15 13:39:23,525 - INFO - Booking created for manglamdubey11@gmail.com on 2026-02-15 13:40
+2026-02-15 13:39:29,163 - INFO - Email sent to manglamdubey11@gmail.com | Subject: Session Booking Confirmed
+2026-02-15 13:39:29,172 - INFO - 127.0.0.1 - - [15/Feb/2026 13:39:29] "POST /book HTTP/1.1" 200 -
+2026-02-15 13:39:53,753 - INFO - Booking created for manglamdubey11@gmail.com on 2026-02-15 13:42
+2026-02-15 13:40:00,065 - INFO - Email sent to manglamdubey11@gmail.com | Subject: Session Booking Confirmed
+2026-02-15 13:40:00,066 - INFO - Added job "send_reminder_email" to job store "default"
+2026-02-15 13:40:00,066 - INFO - Reminder scheduled for manglamdubey11@gmail.com at 2026-02-15 13:41:00
+2026-02-15 13:40:00,067 - INFO - 127.0.0.1 - - [15/Feb/2026 13:40:00] "POST /book HTTP/1.1" 200 -
+2026-02-15 13:40:04,035 - INFO - Home page opened
+2026-02-15 13:40:04,038 - INFO - 127.0.0.1 - - [15/Feb/2026 13:40:04] "GET / HTTP/1.1" 200 -
+2026-02-15 13:40:04,111 - INFO - 127.0.0.1 - - [15/Feb/2026 13:40:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-15 13:41:01,837 - INFO - Scheduler started
+2026-02-15 13:41:01,860 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-02-15 12:44:59,207 - INFO - [33mPress CTRL+C to quit[0m
-2026-02-15 12:44:59,208 - INFO -  * Restarting with stat
-2026-02-15 12:44:59,668 - INFO - Scheduler started
-2026-02-15 12:44:59,685 - WARNING -  * Debugger is active!
-2026-02-15 12:44:59,687 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 12:45:05,539 - INFO - Home page opened
-2026-02-15 12:45:05,545 - INFO - 127.0.0.1 - - [15/Feb/2026 12:45:05] "GET / HTTP/1.1" 200 -
-2026-02-15 12:45:05,663 - INFO - 127.0.0.1 - - [15/Feb/2026 12:45:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-02-15 12:45:34,216 - INFO - Booking created for manglamdubey11@gmail.com on 2026-02-15 12:47
-2026-02-15 12:45:39,857 - INFO - Confirmation email sent to manglamdubey11@gmail.com
-2026-02-15 12:45:39,895 - INFO - Added job "send_reminder_email" to job store "default"
-2026-02-15 12:45:39,895 - INFO - Reminder scheduled for manglamdubey11@gmail.com at 2026-02-15 12:46:00
-2026-02-15 12:45:39,896 - INFO - 127.0.0.1 - - [15/Feb/2026 12:45:39] "POST /book HTTP/1.1" 200 -
-2026-02-15 12:46:00,009 - INFO - Running job "send_reminder_email (trigger: date[2026-02-15 12:46:00 IST], next run at: 2026-02-15 12:46:00 IST)" (scheduled at 2026-02-15 12:46:00+05:30)
-2026-02-15 12:46:00,010 - INFO - Removed job 26038669541e4fe7a494134570678a33
-2026-02-15 12:46:05,049 - INFO - Confirmation email sent to manglamdubey11@gmail.com
-2026-02-15 12:46:05,049 - INFO - Reminder email sent to manglamdubey11@gmail.com
-2026-02-15 12:46:05,049 - INFO - Job "send_reminder_email (trigger: date[2026-02-15 12:46:00 IST], next run at: 2026-02-15 12:46:00 IST)" executed successfully
-2026-02-15 12:51:25,033 - INFO -  * Detected change in 'C:\\Users\\mangl\\OneDrive\\Desktop\\Session_Booking_System\\email_utils.py', reloading
-2026-02-15 12:51:25,085 - INFO -  * Restarting with stat
-2026-02-15 12:51:25,620 - INFO - Scheduler started
-2026-02-15 12:51:25,640 - WARNING -  * Debugger is active!
-2026-02-15 12:51:25,643 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 12:52:15,033 - INFO -  * Detected change in 'C:\\Users\\mangl\\OneDrive\\Desktop\\Session_Booking_System\\email_utils.py', reloading
-2026-02-15 12:52:15,086 - INFO -  * Restarting with stat
-2026-02-15 12:52:15,530 - INFO - Scheduler started
-2026-02-15 12:52:15,548 - WARNING -  * Debugger is active!
-2026-02-15 12:52:15,551 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 12:52:38,729 - INFO -  * Detected change in 'C:\\Users\\mangl\\OneDrive\\Desktop\\Session_Booking_System\\email_utils.py', reloading
-2026-02-15 12:52:38,809 - INFO -  * Restarting with stat
-2026-02-15 12:52:39,280 - INFO - Scheduler started
-2026-02-15 12:52:39,297 - WARNING -  * Debugger is active!
-2026-02-15 12:52:39,300 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 12:52:54,417 - INFO -  * Detected change in 'C:\\Users\\mangl\\OneDrive\\Desktop\\Session_Booking_System\\email_utils.py', reloading
-2026-02-15 12:52:54,482 - INFO -  * Restarting with stat
-2026-02-15 12:52:54,964 - INFO - Scheduler started
-2026-02-15 12:52:54,983 - WARNING -  * Debugger is active!
-2026-02-15 12:52:54,986 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 12:53:13,143 - INFO -  * Detected change in 'C:\\Users\\mangl\\OneDrive\\Desktop\\Session_Booking_System\\email_utils.py', reloading
-2026-02-15 12:53:13,201 - INFO -  * Restarting with stat
-2026-02-15 12:53:13,664 - INFO - Scheduler started
-2026-02-15 12:53:13,680 - WARNING -  * Debugger is active!
-2026-02-15 12:53:13,683 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 12:58:07,044 - INFO -  * Detected change in 'C:\\Users\\mangl\\OneDrive\\Desktop\\Session_Booking_System\\email_utils.py', reloading
-2026-02-15 12:58:07,132 - INFO -  * Restarting with stat
-2026-02-15 12:58:07,598 - INFO - Scheduler started
-2026-02-15 12:58:07,617 - WARNING -  * Debugger is active!
-2026-02-15 12:58:07,619 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 12:58:53,905 - INFO - Scheduler started
-2026-02-15 12:58:53,929 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-15 12:58:53,930 - INFO - [33mPress CTRL+C to quit[0m
-2026-02-15 12:58:53,930 - INFO -  * Restarting with stat
-2026-02-15 12:58:54,389 - INFO - Scheduler started
-2026-02-15 12:58:54,407 - WARNING -  * Debugger is active!
-2026-02-15 12:58:54,409 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 12:59:15,571 - INFO - Home page opened
-2026-02-15 12:59:15,582 - INFO - 127.0.0.1 - - [15/Feb/2026 12:59:15] "GET / HTTP/1.1" 200 -
-2026-02-15 12:59:15,780 - INFO - 127.0.0.1 - - [15/Feb/2026 12:59:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-02-15 12:59:43,496 - INFO - Booking created for manglamdubey11@gmail.com on 2026-02-15 12:02
-2026-02-15 12:59:48,646 - INFO - Email sent to manglamdubey11@gmail.com | Subject: 2026-02-15
-2026-02-15 12:59:48,659 - INFO - 127.0.0.1 - - [15/Feb/2026 12:59:48] "POST /book HTTP/1.1" 200 -
-2026-02-15 13:01:39,953 - INFO - Home page opened
-2026-02-15 13:01:39,953 - INFO - 127.0.0.1 - - [15/Feb/2026 13:01:39] "GET / HTTP/1.1" 200 -
-2026-02-15 13:01:39,987 - INFO - 127.0.0.1 - - [15/Feb/2026 13:01:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-02-15 13:01:41,835 - INFO - Admin panel viewed
-2026-02-15 13:01:41,839 - INFO - 127.0.0.1 - - [15/Feb/2026 13:01:41] "GET /admin HTTP/1.1" 200 -
-2026-02-15 13:02:44,735 - INFO - Booking created for manglamdubey11@gmail.com on 2026-02-15 13:04
-2026-02-15 13:02:49,712 - INFO - Email sent to manglamdubey11@gmail.com | Subject: 2026-02-15
-2026-02-15 13:02:49,713 - INFO - Added job "send_reminder_email" to job store "default"
-2026-02-15 13:02:49,713 - INFO - Reminder scheduled for manglamdubey11@gmail.com at 2026-02-15 13:03:00
-2026-02-15 13:02:49,715 - INFO - 127.0.0.1 - - [15/Feb/2026 13:02:49] "POST /book HTTP/1.1" 200 -
-2026-02-15 13:03:00,007 - INFO - Running job "send_reminder_email (trigger: date[2026-02-15 13:03:00 IST], next run at: 2026-02-15 13:03:00 IST)" (scheduled at 2026-02-15 13:03:00+05:30)
-2026-02-15 13:03:00,007 - INFO - Removed job 8cfe034e31db413eb3f90ce6b0d3fe5e
-2026-02-15 13:03:05,197 - INFO - Email sent to manglamdubey11@gmail.com | Subject: Reminder: Your Session Starts Soon
-2026-02-15 13:03:05,198 - INFO - Job "send_reminder_email (trigger: date[2026-02-15 13:03:00 IST], next run at: 2026-02-15 13:03:00 IST)" executed successfully
-2026-02-15 13:06:55,267 - INFO -  * Detected change in 'C:\\Users\\mangl\\OneDrive\\Desktop\\Session_Booking_System\\app.py', reloading
-2026-02-15 13:06:55,330 - INFO -  * Restarting with stat
-2026-02-15 13:06:55,849 - INFO - Scheduler started
-2026-02-15 13:06:55,866 - WARNING -  * Debugger is active!
-2026-02-15 13:06:55,869 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 13:07:11,002 - INFO -  * Detected change in 'C:\\Users\\mangl\\OneDrive\\Desktop\\Session_Booking_System\\app.py', reloading
-2026-02-15 13:07:11,057 - INFO -  * Restarting with stat
-2026-02-15 13:07:11,527 - INFO - Scheduler started
-2026-02-15 13:07:11,545 - WARNING -  * Debugger is active!
-2026-02-15 13:07:11,548 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 13:07:45,922 - INFO - Scheduler started
-2026-02-15 13:07:45,947 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-2026-02-15 13:07:45,947 - INFO - [33mPress CTRL+C to quit[0m
-2026-02-15 13:07:45,948 - INFO -  * Restarting with stat
-2026-02-15 13:07:46,400 - INFO - Scheduler started
-2026-02-15 13:07:46,417 - WARNING -  * Debugger is active!
-2026-02-15 13:07:46,420 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 13:07:51,688 - INFO - Home page opened
-2026-02-15 13:07:51,695 - INFO - 127.0.0.1 - - [15/Feb/2026 13:07:51] "GET / HTTP/1.1" 200 -
-2026-02-15 13:07:51,787 - INFO - 127.0.0.1 - - [15/Feb/2026 13:07:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2026-02-15 13:08:05,635 - INFO - Booking created for manglamdubey11@gmail.com on 2026-02-15 13:10
-2026-02-15 13:08:11,690 - INFO - Email sent to manglamdubey11@gmail.com | Subject: Session Booking Confirmed
-2026-02-15 13:08:11,701 - INFO - Added job "send_reminder_email" to job store "default"
-2026-02-15 13:08:11,701 - INFO - Reminder scheduled for manglamdubey11@gmail.com at 2026-02-15 13:09:00
-2026-02-15 13:08:11,703 - INFO - 127.0.0.1 - - [15/Feb/2026 13:08:11] "POST /book HTTP/1.1" 200 -
-2026-02-15 13:09:00,009 - INFO - Running job "send_reminder_email (trigger: date[2026-02-15 13:09:00 IST], next run at: 2026-02-15 13:09:00 IST)" (scheduled at 2026-02-15 13:09:00+05:30)
-2026-02-15 13:09:00,010 - INFO - Removed job 7f62a1bb69d948c8a9cffa4e5713139d
-2026-02-15 13:09:05,760 - INFO - Email sent to manglamdubey11@gmail.com | Subject: Reminder: Your Session Starts Soon
-2026-02-15 13:09:05,760 - INFO - Job "send_reminder_email (trigger: date[2026-02-15 13:09:00 IST], next run at: 2026-02-15 13:09:00 IST)" executed successfully
-2026-02-15 13:10:08,672 - INFO -  * Detected change in 'C:\\Users\\mangl\\OneDrive\\Desktop\\Session_Booking_System\\email_utils.py', reloading
-2026-02-15 13:10:08,747 - INFO -  * Restarting with stat
-2026-02-15 13:10:09,286 - INFO - Scheduler started
-2026-02-15 13:10:09,311 - WARNING -  * Debugger is active!
-2026-02-15 13:10:09,314 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 13:11:05,744 - INFO -  * Detected change in 'C:\\Users\\mangl\\OneDrive\\Desktop\\Session_Booking_System\\email_utils.py', reloading
-2026-02-15 13:11:05,788 - INFO -  * Restarting with stat
-2026-02-15 13:11:06,283 - INFO - Scheduler started
-2026-02-15 13:11:06,302 - WARNING -  * Debugger is active!
-2026-02-15 13:11:06,305 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 13:15:43,522 - INFO -  * Detected change in 'C:\\Users\\mangl\\OneDrive\\Desktop\\Session_Booking_System\\email_utils.py', reloading
-2026-02-15 13:15:43,570 - INFO -  * Restarting with stat
-2026-02-15 13:15:44,072 - INFO - Scheduler started
-2026-02-15 13:15:44,090 - WARNING -  * Debugger is active!
-2026-02-15 13:15:44,092 - INFO -  * Debugger PIN: 101-848-060
-2026-02-15 13:20:43,168 - INFO -  * Detected change in 'C:\\Users\\mangl\\OneDrive\\Desktop\\Session_Booking_System\\app.py', reloading
-2026-02-15 13:20:43,220 - INFO -  * Restarting with stat
+2026-02-15 13:41:01,860 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 13:41:01,860 - INFO -  * Restarting with stat
+2026-02-15 13:41:02,267 - INFO - Scheduler started
+2026-02-15 13:41:02,282 - WARNING -  * Debugger is active!
+2026-02-15 13:41:02,284 - INFO -  * Debugger PIN: 101-848-060
+2026-02-15 13:41:08,848 - INFO - Home page opened
+2026-02-15 13:41:08,855 - INFO - 127.0.0.1 - - [15/Feb/2026 13:41:08] "GET / HTTP/1.1" 200 -
+2026-02-15 13:41:08,915 - INFO - 127.0.0.1 - - [15/Feb/2026 13:41:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-15 13:41:10,052 - INFO - Admin panel viewed
+2026-02-15 13:41:10,055 - INFO - 127.0.0.1 - - [15/Feb/2026 13:41:10] "GET /admin HTTP/1.1" 200 -
