@@ -84,7 +84,7 @@ TimeSyncer\
 │\
 ├── logs\
 │ └── app.log\
-├── database\
+├── database (not pushed so create one first)\
 │ └── database.db
 
 
@@ -155,10 +155,12 @@ Tip: Create a folder named screenshots in repo and upload images.
 #### EMAIL_USER=your_gmail@gmail.com
 #### EMAIL_PASS=your_app_password
 
-7. Run project\
+7. Create **database** directory
+
+8. Run project\
     ``` python app.py ```
 
-8. Open browser\
+9. Open browser\
     ```http://127.0.0.1:5000```
 
 * * * * *
