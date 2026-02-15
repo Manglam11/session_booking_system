@@ -136,8 +136,8 @@ Tip: Create a folder named screenshots in repo and upload images.
 
 ### ⚙️ **Setup Instructions**
 
-1.  Clone repository\
-   ``` git clone <your-repo-link> ```
+1.  Clone repository
+   ``` [git clone](https://github.com/Manglam11/session_booking_system.git) ```
 2.  Open project folder
 
 3.  Create virtual environment\
@@ -152,7 +152,7 @@ Tip: Create a folder named screenshots in repo and upload images.
 6.  Create .env file\
 ### Add:
 
-#### EMAIL_USER=your_gmail@gmail.com\
+#### EMAIL_USER=your_gmail@gmail.com
 #### EMAIL_PASS=your_app_password
 
 7. Run project\
