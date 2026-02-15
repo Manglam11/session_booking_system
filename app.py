@@ -1,6 +1,7 @@
 import sqlite3
-
 from flask import Flask, render_template, request
+import smtplib
+from email.mime.text import MIMEText
 
 app = Flask(__name__)
 
@@ -70,6 +71,7 @@ def add_booking(name, email, date, time):
     conn.close()
 
     print("Booking added successfully")
+    send_email(email, date, time)
     return True
 
 def get_all_bookings():
@@ -81,6 +83,30 @@ def get_all_bookings():
 
     conn.close()
     return rows
+
+def send_email(to_email, date, time):
+
+    sender_email = "manglamdubey11@gmail.com"
+    sender_password = "rakh cnda eyul uube"
+
+    subject = "Session Booking Confirmed"
+    body = f"Your session is booked on {date} at {time}"
+
+    msg = MIMEText(body)
+    msg["Subject"] = subject
+    msg["From"] = sender_email
+    msg["To"] = to_email
+
+    server = smtplib.SMTP("smtp.gmail.com", 587)
+    server.starttls()
+
+    server.login(sender_email, sender_password)
+
+    server.send_message(msg)
+    server.quit()
+
+    print("Email sent successfully")
+
 
 
 if __name__ == "__main__":
