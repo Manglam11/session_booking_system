@@ -2,6 +2,8 @@ import os
 import smtplib
 from email.mime.text import MIMEText
 from dotenv import load_dotenv
+from logger_config import logger
+
 
 load_dotenv()
 
@@ -25,7 +27,7 @@ def send_email(to_email, date, time):
         server.send_message(msg)
         server.quit()
 
-        print("Email sent to", to_email)
+        logger.info(f"Confirmation email sent to {to_email}")
 
     except Exception as e:
-        print("Email failed:", e)
+        logger.error(f"Email failed: {e}")

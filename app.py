@@ -1,12 +1,15 @@
 from flask import Flask, render_template, request
 from db import create_table, add_booking, get_all_bookings
 from email_utils import send_email
+from logger_config import logger
+
 
 app = Flask(__name__)
 
 
 @app.route("/")
 def home():
+    logger.info("Home page opened")
     return render_template("index.html")
 
 
@@ -28,6 +31,7 @@ def book():
 
 @app.route("/admin")
 def admin():
+    logger.info("Admin panel viewed")
     bookings = get_all_bookings()
     return render_template("admin.html", bookings=bookings)
 

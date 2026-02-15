@@ -1,4 +1,5 @@
 import sqlite3
+from logger_config import logger
 
 DB_NAME = "database.db"
 
@@ -37,7 +38,7 @@ def add_booking(name, email, date, time):
 
     if cursor.fetchone():
         conn.close()
-        print("Slot already booked")
+        logger.warning(f"Slot already booked for {date} {time}")
         return False
 
     cursor.execute(
@@ -48,7 +49,7 @@ def add_booking(name, email, date, time):
     conn.commit()
     conn.close()
 
-    print("Booking saved")
+    logger.info(f"Booking created for {email} on {date} {time}")
     return True
 
 

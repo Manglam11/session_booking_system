@@ -1,0 +1,15 @@
+2026-02-15 12:17:44,978 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-15 12:17:44,978 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 12:17:44,979 - INFO -  * Restarting with stat
+2026-02-15 12:17:45,364 - WARNING -  * Debugger is active!
+2026-02-15 12:17:45,367 - INFO -  * Debugger PIN: 101-848-060
+2026-02-15 12:17:57,009 - INFO - Home page opened
+2026-02-15 12:17:57,014 - INFO - 127.0.0.1 - - [15/Feb/2026 12:17:57] "GET / HTTP/1.1" 200 -
+2026-02-15 12:18:19,720 - INFO - Booking created for manglamdubey11@gmail.com on 2026-02-15 12:18
+2026-02-15 12:18:25,387 - INFO - Confirmation email sent to manglamdubey11@gmail.com
+2026-02-15 12:18:25,390 - INFO - 127.0.0.1 - - [15/Feb/2026 12:18:25] "POST /book HTTP/1.1" 200 -
+2026-02-15 12:18:40,136 - INFO - Home page opened
+2026-02-15 12:18:40,136 - INFO - 127.0.0.1 - - [15/Feb/2026 12:18:40] "GET / HTTP/1.1" 200 -
+2026-02-15 12:18:42,372 - INFO - Admin panel viewed
+2026-02-15 12:18:42,378 - INFO - 127.0.0.1 - - [15/Feb/2026 12:18:42] "GET /admin HTTP/1.1" 200 -
