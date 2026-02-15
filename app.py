@@ -1,12 +1,26 @@
 import sqlite3
 
-from flask import Flask
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello, this is my first Flask app!"
+    return render_template("index.html")
+
+@app.route("/book", methods=["POST"])
+def book():
+    name = request.form["name"]
+    email = request.form["email"]
+    date = request.form["date"]
+    time = request.form["time"]
+
+    result = add_booking(name, email, date, time)
+
+    if result:
+        return render_template("success.html")
+    else:
+        return render_template("fail.html")
 
 def create_table():
     conn = sqlite3.connect(database="database.db")
