@@ -1,34 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Session Booking</title>
+    <title>Book Session</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 
-<h2>Book a Session</h2>
+<div class="container">
+    <h1>Session Booking</h1>
 
-<form method="POST" action="/book">
+    <form action="/book" method="POST">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <input type="date" name="date" required>
+        <input type="time" name="time" required>
 
-    Name:
-    <input type="text" name="name" required>
-    <br><br>
+        <button type="submit">Book Session</button>
+    </form>
+    <hr style="margin:20px 0">
 
-    Email:
-    <input type="email" name="email" required>
-    <br><br>
+    <!-- ADMIN LINK -->
+    <a href="/admin">
+        <button type="button">View All Bookings</button>
+    </a>
+</div>
 
-    Date:
-    <input type="date" name="date" required>
-    <br><br>
-
-    Time:
-    <input type="time" name="time" required>
-    <br><br>
-
-    <button type="submit">Book</button>
-
-</form>
-<br>
-<a href="/admin">View All Bookings</a>
 </body>
 </html>

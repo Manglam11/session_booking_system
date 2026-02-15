@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form input, form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+button {
+    background-color: #2d89ef;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+button:hover {
+    background-color: #1b5fbf;
+}
+
+.success {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+
+.fail {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #2d89ef;
+    color: white;
+}
+a button {
+    margin-top: 10px;
+    background-color: #444;
+}
+
+a button:hover {
+    background-color: #222;
+}
