@@ -22,6 +22,12 @@ def book():
     else:
         return render_template("fail.html")
 
+@app.route("/admin")
+def admin():
+    booking_data = get_all_bookings()
+    return render_template("admin.html", bookings=booking_data)
+
+
 def create_table():
     conn = sqlite3.connect(database="database.db")
     cursor = conn.cursor()
