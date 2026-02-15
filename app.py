@@ -28,6 +28,19 @@ def add_booking(name, email, date, time):
     conn = sqlite3.connect("database.db")
     cursor = conn.cursor()
 
+    # <------- Preventing double booking ------>
+    cursor.execute("""
+            SELECT * FROM bookings
+            WHERE date=? AND time=?
+        """, (date, time))
+
+    existing = cursor.fetchone()
+
+    if existing:
+        print("Slot already booked")
+        conn.close()
+        return False
+
     cursor.execute("""
         INSERT INTO bookings (name, email, date, time)
         VALUES (?, ?, ?, ?)
@@ -37,7 +50,7 @@ def add_booking(name, email, date, time):
     conn.close()
 
     print("Booking added successfully")
-
+    return True
 
 def get_all_bookings():
     conn = sqlite3.connect("database.db")
@@ -53,6 +66,8 @@ def get_all_bookings():
 if __name__ == "__main__":
     create_table()
     # add_booking("Manglam", "test@mail.com", "15-02-2026", "10:00")
+    add_booking("A", "a@mail.com", "20-02-2026", "10:00")
+    add_booking("B", "b@mail.com", "20-02-2026", "10:00")
 
     # PRINT ALL BOOKINGS
     data = get_all_bookings()
