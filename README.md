@@ -84,7 +84,7 @@ TimeSyncer\
 │\
 ├── logs\
 │ └── app.log\
-├── database\(not pushed to GitHub)\
+├── database\
 │ └── database.db
 
 
