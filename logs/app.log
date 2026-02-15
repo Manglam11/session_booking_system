@@ -30,3 +30,30 @@
 2026-02-15 13:41:08,915 - INFO - 127.0.0.1 - - [15/Feb/2026 13:41:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 2026-02-15 13:41:10,052 - INFO - Admin panel viewed
 2026-02-15 13:41:10,055 - INFO - 127.0.0.1 - - [15/Feb/2026 13:41:10] "GET /admin HTTP/1.1" 200 -
+2026-02-15 14:17:58,615 - INFO - Scheduler started
+2026-02-15 14:17:58,637 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-15 14:17:58,637 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 14:17:58,638 - INFO -  * Restarting with stat
+2026-02-15 14:17:59,054 - INFO - Scheduler started
+2026-02-15 14:17:59,069 - WARNING -  * Debugger is active!
+2026-02-15 14:17:59,072 - INFO -  * Debugger PIN: 101-848-060
+2026-02-15 14:18:03,066 - INFO - Admin panel viewed
+2026-02-15 14:18:03,072 - INFO - 127.0.0.1 - - [15/Feb/2026 14:18:03] "GET /admin HTTP/1.1" 200 -
+2026-02-15 14:19:25,351 - INFO - Scheduler started
+2026-02-15 14:19:25,371 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-15 14:19:25,372 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 14:19:25,372 - INFO -  * Restarting with stat
+2026-02-15 14:19:25,771 - INFO - Scheduler started
+2026-02-15 14:19:25,785 - WARNING -  * Debugger is active!
+2026-02-15 14:19:25,788 - INFO -  * Debugger PIN: 101-848-060
+2026-02-15 14:19:44,359 - INFO - Booking created for manglamdubey11@gmail.com on 2026-02-15 14:21
+2026-02-15 14:19:51,299 - INFO - Email sent to manglamdubey11@gmail.com | Subject: Session Booking Confirmed
+2026-02-15 14:19:51,306 - INFO - Added job "send_reminder_email" to job store "default"
+2026-02-15 14:19:51,307 - INFO - Reminder scheduled for manglamdubey11@gmail.com at 2026-02-15 14:20:00
+2026-02-15 14:19:51,309 - INFO - 127.0.0.1 - - [15/Feb/2026 14:19:51] "POST /book HTTP/1.1" 200 -
+2026-02-15 14:20:00,011 - INFO - Running job "send_reminder_email (trigger: date[2026-02-15 14:20:00 IST], next run at: 2026-02-15 14:20:00 IST)" (scheduled at 2026-02-15 14:20:00+05:30)
+2026-02-15 14:20:00,012 - INFO - Removed job 779a071fa070407ba154b50650d6db66
+2026-02-15 14:20:15,425 - ERROR - Email failed: Connection unexpectedly closed
+2026-02-15 14:20:15,425 - INFO - Job "send_reminder_email (trigger: date[2026-02-15 14:20:00 IST], next run at: 2026-02-15 14:20:00 IST)" executed successfully
