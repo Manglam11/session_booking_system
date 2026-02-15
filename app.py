@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request
-from db import create_table, add_booking, get_all_bookings
-from email_utils import send_confirmation_email
-from scheduler import schedule_reminder
-from logger_config import logger
+from services.db import create_table, add_booking, get_all_bookings
+from services.email_utils import send_confirmation_email
+from services.scheduler import schedule_reminder
+from services.logger_config import logger
 
 
 app = Flask(__name__)

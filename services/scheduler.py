@@ -1,7 +1,7 @@
 from apscheduler.schedulers.background import BackgroundScheduler
 from datetime import datetime, timedelta
-from email_utils import send_reminder_email
-from logger_config import logger
+from services.email_utils import send_reminder_email
+from services.logger_config import logger
 
 scheduler = BackgroundScheduler()
 scheduler.start()

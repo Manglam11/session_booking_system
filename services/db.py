@@ -1,8 +1,8 @@
 import sqlite3
-from logger_config import logger
-from scheduler import schedule_reminder
+from services.logger_config import logger
 
-DB_NAME = "database.db"
+
+DB_NAME = "database/database.db"
 
 
 def get_connection():

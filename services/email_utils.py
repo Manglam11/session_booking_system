@@ -2,7 +2,7 @@ import os
 import smtplib
 from email.mime.text import MIMEText
 from dotenv import load_dotenv
-from logger_config import logger
+from services.logger_config import logger
 
 load_dotenv()
 
@@ -45,7 +45,7 @@ Time: {time}
 Please be available 5 minutes before the scheduled time.
 
 Thank you.
-Team TimeSyncer
+TimeSyncer
 """
 
     send_mail(to_email, subject, body)
@@ -66,7 +66,7 @@ Time: {time}
 Please join on time.
 
 Regards.
-Team TimeSyncer
+TimeSyncer
 """
 
     send_mail(to_email, subject, body)
