@@ -4,16 +4,13 @@ from email.mime.text import MIMEText
 from dotenv import load_dotenv
 from logger_config import logger
 
-
 load_dotenv()
 
 
-def send_email(to_email, date, time):
+# ---------- CORE MAIL SENDER ----------
+def send_mail(to_email, subject, body):
     sender_email = os.getenv("EMAIL_USER")
     sender_password = os.getenv("EMAIL_PASS")
-
-    subject = "Session Booking Confirmed"
-    body = f"Your session is booked on {date} at {time}"
 
     msg = MIMEText(body)
     msg["Subject"] = subject
@@ -27,7 +24,49 @@ def send_email(to_email, date, time):
         server.send_message(msg)
         server.quit()
 
-        logger.info(f"Confirmation email sent to {to_email}")
+        logger.info(f"Email sent to {to_email} | Subject: {subject}")
 
     except Exception as e:
         logger.error(f"Email failed: {e}")
+
+
+# ---------- CONFIRMATION EMAIL ----------
+def send_confirmation_email(to_email, date, time):
+    subject = "Session Booking Confirmed"
+
+    body = f"""
+Hello,
+
+Your session has been successfully booked.
+
+Date: {date}
+Time: {time}
+
+Please be available 5 minutes before the scheduled time.
+
+Thank you.
+Team TimeSyncer
+"""
+
+    send_mail(to_email, subject, body)
+
+
+# ---------- REMINDER EMAIL ----------
+def send_reminder_email(to_email, date, time):
+    subject = "Reminder: Your Session Starts Soon"
+
+    body = f"""
+Hello,
+
+This is a reminder for your upcoming session.
+
+Date: {date}
+Time: {time}
+
+Please join on time.
+
+Regards.
+Team TimeSyncer
+"""
+
+    send_mail(to_email, subject, body)

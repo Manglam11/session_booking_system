@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from db import create_table, add_booking, get_all_bookings
-from email_utils import send_email
+from email_utils import send_confirmation_email
+from scheduler import schedule_reminder
 from logger_config import logger
 
 
@@ -23,7 +24,8 @@ def book():
     success = add_booking(name, email, date, time)
 
     if success:
-        send_email(email, date, time)
+        send_confirmation_email(email, date, time)
+        schedule_reminder(email, date, time)
         return render_template("success.html")
 
     return render_template("fail.html")

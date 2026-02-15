@@ -1,5 +1,6 @@
 import sqlite3
 from logger_config import logger
+from scheduler import schedule_reminder
 
 DB_NAME = "database.db"
 
